@@ -13,3 +13,6 @@ $JDK = "C:\Program Files\BellSoft\LibericaJDK-21-Full"
 
 # Run directly — no installation required
 & "dist-portable\BeautyLensDetector\BeautyLensDetector.exe"
+
+mvn package -DskipTests
+mvn javafx:run
