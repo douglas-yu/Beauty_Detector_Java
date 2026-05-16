@@ -1,0 +1,35 @@
+/* ── 全局 ── */
+.root {
+    -fx-font-family: "Arial", "Microsoft YaHei", sans-serif;
+    -fx-background-color: #1a1d26;
+    -fx-text-fill: #c8d0e0;
+}
+
+/* ── ScrollPane ── */
+.scroll-pane { -fx-background-color: transparent; }
+.scroll-pane > .viewport { -fx-background-color: transparent; }
+.scroll-bar:vertical .track,
+.scroll-bar:horizontal .track { -fx-background-color: #1e2030; }
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb { -fx-background-color: #3a3f55; -fx-background-radius: 4; }
+
+/* ── 进度条 ── */
+.progress-bar > .bar         { -fx-background-color: #639BFF; -fx-background-radius: 3; }
+.progress-bar > .track       { -fx-background-color: #252836; -fx-background-radius: 3; }
+
+/* ── SplitPane ── */
+.split-pane { -fx-background-color: #1a1d26; -fx-padding: 0; }
+.split-pane-divider { -fx-background-color: #2a2d3a; -fx-padding: 0 1; }
+
+/* ── Tooltip ── */
+.tooltip {
+    -fx-background-color: #1e2132;
+    -fx-text-fill: #c8d0e0;
+    -fx-border-color: #3a3f55;
+    -fx-font-size: 11px;
+    -fx-wrap-text: true;
+    -fx-max-width: 300;
+}
+
+/* ── Label ── */
+.label { -fx-text-fill: #c8d0e0; }
